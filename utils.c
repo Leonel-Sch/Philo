@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 17:02:51 by leonel            #+#    #+#             */
-/*   Updated: 2024/10/16 17:03:11 by leonel           ###   ########.fr       */
+/*   Updated: 2024/11/20 13:42:14 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Philo.h"
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int i;
 	int sign;
@@ -21,7 +21,8 @@ int ft_atoi(const char *str)
 	i = 0;
 	sign = 1;
 	res = 0;
-	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || str[i] == '\f' || str[i] == '\r')
+	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == '\v'
+		|| str[i] == '\f' || str[i] == '\r')
 		i++;
 	if (str[i] == '-')
 	{
