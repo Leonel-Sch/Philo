@@ -6,7 +6,7 @@
 /*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2024/11/20 16:21:52 by lscheupl         ###   ########.fr       */
+/*   Updated: 2025/03/07 16:04:15 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <string.h>
 # include <sys/time.h>
 # include <unistd.h>
+# include <stdbool.h>
 
 typedef struct s_philo
 {
@@ -38,11 +39,13 @@ typedef struct s_data
 	int				time_to_eat;
 	int				time_to_sleep;
 	int				must_eat;
-	int				dead;
+	bool				dead;
+	bool 				*eaten;
 	long long		start_time;
 	pthread_mutex_t	*forks;
 	pthread_mutex_t	writing;
 	pthread_mutex_t	meal_check;
+	pthread_mutex_t	is_dead;
 	t_philo			*philos;
 }					t_data;
 
