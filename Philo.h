@@ -6,7 +6,7 @@
 /*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/07 16:04:15 by lscheupl         ###   ########.fr       */
+/*   Updated: 2025/03/10 17:35:55 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,7 @@ typedef struct s_data
 	pthread_mutex_t	writing;
 	pthread_mutex_t	meal_check;
 	pthread_mutex_t	is_dead;
+	pthread_mutex_t	has_eaten;
 	t_philo			*philos;
 }					t_data;
 
@@ -64,5 +65,9 @@ long long			get_time(void);
 //void				*philo_routine(void *arg);
 //void				eat(t_philo *philo);
 //void				check_death(t_data *data, t_philo *philos);
+
+///* routine utils.c */
+void    philo_write(t_philo *philo, char *str);
+bool    is_starving(t_philo *philo);
 
 #endif
