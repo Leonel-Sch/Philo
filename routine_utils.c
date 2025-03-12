@@ -6,7 +6,7 @@
 /*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 16:09:11 by lscheupl          #+#    #+#             */
-/*   Updated: 2025/03/10 16:26:32 by lscheupl         ###   ########.fr       */
+/*   Updated: 2025/03/12 18:49:21 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,11 @@ void    philo_write(t_philo *philo, char *str)
 
 bool    is_starving(t_philo *philo)
 {
-    pthread_mutex_lock(&philo->data->is_dead);
     if (get_time() - philo->last_meal >= philo->data->time_to_die)
 	{
         philo_write(philo, "died");
 		philo->data->dead = true;
 		return (pthread_mutex_unlock(&philo->data->is_dead), true);
 	}
-    pthread_mutex_unlock(&philo->data->is_dead);
     return (false);
 }
