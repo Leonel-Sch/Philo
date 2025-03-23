@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
+/*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/10 17:35:55 by lscheupl         ###   ########.fr       */
+/*   Updated: 2025/03/22 13:01:56 by leonel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ typedef struct s_philo
 typedef struct s_data
 {
 	int				nb_philos;
-	int				time_to_die;
-	int				time_to_eat;
-	int				time_to_sleep;
+	long long				time_to_die;
+	long long	time_to_eat;
+	long long	time_to_sleep;
 	int				must_eat;
 	bool				dead;
 	bool 				*eaten;
