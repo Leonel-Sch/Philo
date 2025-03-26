@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   routine_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 16:09:11 by lscheupl          #+#    #+#             */
-/*   Updated: 2025/03/22 12:19:59 by leonel           ###   ########.fr       */
+/*   Updated: 2025/03/26 19:03:43 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,12 @@ void    philo_write(t_philo *philo, char *str)
 
 bool    is_starving(t_philo *philo)
 {
+    
     if (get_time() - philo->last_meal >= philo->data->time_to_die)
 	{
         philo_write(philo, "died");
 		philo->data->dead = true;
-		return (true);
+		return (pthread_mutex_unlock(&philo->data->is_dead), true);
 	}
-    return (false);
+    return (pthread_mutex_unlock(&philo->data->is_dead), false);
 }

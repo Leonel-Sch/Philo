@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:35:47 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/22 15:37:50 by leonel           ###   ########.fr       */
+/*   Updated: 2025/03/26 19:21:55 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,8 +93,6 @@ bool	check_death(t_philo *philo)
 	pthread_mutex_lock(&philo->data->is_dead);
 	if (philo->data->dead == true)
 		return (pthread_mutex_unlock(&philo->data->is_dead), true);
-	if (is_starving(philo) == true)
-		return (pthread_mutex_unlock(&philo->data->is_dead), true);
 	return (pthread_mutex_unlock(&philo->data->is_dead), false);
 }
 
@@ -103,7 +101,7 @@ void	*routine(void *arg)
 {
 	t_philo *philo;
 	int i;
-	long long think_time;
+	// long long think_time;
 
 	philo = (t_philo *)arg;
 
@@ -114,27 +112,27 @@ void	*routine(void *arg)
 		
 		philo_write(philo, "is thinking");
 		
-		pthread_mutex_lock(&philo->data->has_eaten);
-		think_time = philo->data->time_to_die - (get_time() - philo->last_meal) - (philo->data->time_to_eat / 2);
+		// pthread_mutex_lock(&philo->data->has_eaten);
+		// think_time = philo->data->time_to_die - (get_time() - philo->last_meal) - (philo->data->time_to_eat / 2);
 		// dprintf(2, "%lld\n", think_time);
-		pthread_mutex_unlock(&philo->data->has_eaten);
-		if (think_time <= 0)
-		{
-			while (1)
-			{
-				usleep(10);
-				if (check_death(philo) == true)
-					return (NULL);
-			}
-		}
-		else
-		{
-			while(think_time > 50)
-			{
-				think_time = think_time / 7;
-			}
-			usleep(think_time);
-		}
+		// pthread_mutex_unlock(&philo->data->has_eaten);
+		// if (think_time <= -100)
+		// {
+		// 	while (1)
+		// 	{
+		// 		usleep(10);
+		// 		if (check_death(philo) == true)
+		// 			return (NULL);
+		// 	}
+		// }
+		// else
+		// {
+		// 	while(think_time > 50)
+		// 	{
+		// 		think_time = think_time / 7;
+		// 	}
+		// 	usleep(think_time);
+		// }
 		
 		if (check_death(philo) == true)
 			return (NULL);
@@ -223,16 +221,31 @@ void	*routine(void *arg)
 		
 		philo_write(philo, "is sleeping");
 		
-		i = 100;
-		while (i >= 0)
+		i = 10;
+		while (i > 0)
 		{
-			usleep(philo->data->time_to_sleep * 10);
+			usleep(philo->data->time_to_sleep * 100);
 			if (check_death(philo) == true)
 				return (NULL);
 			i--;
 		}
+		// dprintf(2, "up\n");
 	}
 	return (NULL);
+}
+
+void	*routine_one(void *arg)
+{
+	t_philo *philo;
+
+	philo = (t_philo *)arg;
+	while(1)
+	{
+		printf("%lld Philosopher 1 is thinking\n", get_time() - philo->data->start_time);
+		printf("%lld Philosopher 1 is taking left fork 0\n", get_time() - philo->data->start_time);
+		usleep(philo->data->time_to_die * 1000);
+		printf("%lld Philosopher 1 died\n", get_time() - philo->data->start_time);
+	}
 }
 
 void ft_create_philos(t_data *data)
@@ -248,10 +261,7 @@ void ft_create_philos(t_data *data)
 	}
 	if (data->nb_philos == 1)
 	{
-		printf("%lld Philosopher 1 is thinking\n", get_time() - data->start_time);
-		printf("%lld Philosopher 1 is taking left fork 0\n", get_time() - data->start_time);
-		usleep(data->time_to_die * 1000);
-		printf("%lld Philosopher 1 died\n", get_time() - data->start_time);
+		pthread_create(&data->philos[i].thread, NULL, routine_one, &data->philos[i]);
 		return ;
 	}
 	while (i < data->nb_philos)
@@ -292,10 +302,48 @@ void 	ft_destroy(t_data *data)
 	free(data->eaten);
 	
 }
+void *routine_monitor(void *dat)
+{
+	int i;
+
+	i = 0;
+	dprintf(2, "nik ta nere");
+	t_data *data = *((t_data *)dat);
+	while (1)
+	{
+		while (i <= (data->nb_philos - 1))
+		{
+			pthread_mutex_lock(&data->is_dead);
+			if (is_starving(&data->philos[i]) == true)
+			{
+				pthread_mutex_unlock(&data->is_dead);
+				ft_destroy(data);
+				return (NULL);
+			}
+			pthread_mutex_unlock(&data->is_dead);
+			i++;
+			dprintf(2, "i: %d\n", i);
+		}
+		i = 0;
+		if (data->dead == true)
+			break;
+	}
+	return (NULL);
+}
+
+void monitor(t_data *data)
+{
+	pthread_t monitor;
+	pthread_create(&monitor, NULL, routine_monitor, &data);
+	pthread_join(monitor, NULL);
+}
 
 int main(int argc, char **argv)
 {
 	t_data data;
+	int i;
+	
+	i = 0;
 	if (argc < 5 || argc > 6)
 		return (EXIT_FAILURE);
 	ft_initiate(argv, argc, &data);
