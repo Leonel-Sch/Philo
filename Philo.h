@@ -6,7 +6,7 @@
 /*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/22 13:01:56 by leonel           ###   ########.fr       */
+/*   Updated: 2025/03/28 14:40:21 by leonel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ typedef struct s_data
 	pthread_mutex_t	meal_check;
 	pthread_mutex_t	is_dead;
 	pthread_mutex_t	has_eaten;
+	pthread_mutex_t	get_time;
 	t_philo			*philos;
 }					t_data;
 
@@ -69,5 +70,8 @@ long long			get_time(void);
 ///* routine utils.c */
 void    philo_write(t_philo *philo, char *str);
 bool    is_starving(t_philo *philo);
+
+
+void 	ft_destroy(t_data *data);
 
 #endif

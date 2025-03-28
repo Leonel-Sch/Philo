@@ -1,0 +1,1509 @@
+Start time: -1
+Number of philosophers: 200
+Time to die: 60
+Time to eat: 60
+Time to sleep: 60
+Number of times each philosopher must eat: Infinite
+11 Philosopher 1 is thinking
+1743171022728 Philosopher 1 is taking left fork 199
+1743171022728 Philosopher 1 is taking right fork 0
+12 Philosopher 1 is eating
+14 Philosopher 2 is thinking
+1743171022728 Philosopher 2 is taking right fork 1
+15 Philosopher 3 is thinking
+15 Philosopher 4 is thinking
+1743171022728 Philosopher 4 is taking right fork 3
+1743171022728 Philosopher 4 is taking left fork 2
+16 Philosopher 4 is eating
+17 Philosopher 5 is thinking
+17 Philosopher 6 is thinking
+1743171022728 Philosopher 6 is taking right fork 5
+1743171022728 Philosopher 6 is taking left fork 4
+17 Philosopher 6 is eating
+18 Philosopher 7 is thinking
+19 Philosopher 8 is thinking
+1743171022728 Philosopher 8 is taking right fork 7
+1743171022728 Philosopher 8 is taking left fork 6
+19 Philosopher 8 is eating
+21 Philosopher 9 is thinking
+21 Philosopher 10 is thinking
+1743171022728 Philosopher 10 is taking right fork 9
+1743171022728 Philosopher 10 is taking left fork 8
+21 Philosopher 10 is eating
+22 Philosopher 11 is thinking
+23 Philosopher 12 is thinking
+1743171022728 Philosopher 12 is taking right fork 11
+1743171022728 Philosopher 12 is taking left fork 10
+23 Philosopher 12 is eating
+24 Philosopher 13 is thinking
+25 Philosopher 14 is thinking
+1743171022728 Philosopher 14 is taking right fork 13
+1743171022728 Philosopher 14 is taking left fork 12
+25 Philosopher 14 is eating
+26 Philosopher 15 is thinking
+27 Philosopher 16 is thinking
+1743171022728 Philosopher 16 is taking right fork 15
+1743171022728 Philosopher 16 is taking left fork 14
+27 Philosopher 16 is eating
+28 Philosopher 17 is thinking
+28 Philosopher 18 is thinking
+1743171022728 Philosopher 18 is taking right fork 17
+1743171022728 Philosopher 18 is taking left fork 16
+29 Philosopher 18 is eating
+30 Philosopher 19 is thinking
+30 Philosopher 20 is thinking
+1743171022728 Philosopher 20 is taking right fork 19
+1743171022728 Philosopher 20 is taking left fork 18
+31 Philosopher 20 is eating
+31 Philosopher 21 is thinking
+32 Philosopher 22 is thinking
+1743171022728 Philosopher 22 is taking right fork 21
+1743171022728 Philosopher 22 is taking left fork 20
+34 Philosopher 22 is eating
+35 Philosopher 23 is thinking
+36 Philosopher 24 is thinking
+1743171022728 Philosopher 24 is taking right fork 23
+1743171022728 Philosopher 24 is taking left fork 22
+36 Philosopher 24 is eating
+37 Philosopher 25 is thinking
+38 Philosopher 26 is thinking
+1743171022728 Philosopher 26 is taking right fork 25
+1743171022728 Philosopher 26 is taking left fork 24
+38 Philosopher 26 is eating
+39 Philosopher 27 is thinking
+40 Philosopher 28 is thinking
+1743171022728 Philosopher 28 is taking right fork 27
+1743171022728 Philosopher 28 is taking left fork 26
+40 Philosopher 28 is eating
+41 Philosopher 29 is thinking
+41 Philosopher 30 is thinking
+1743171022728 Philosopher 30 is taking right fork 29
+1743171022728 Philosopher 30 is taking left fork 28
+42 Philosopher 30 is eating
+42 Philosopher 31 is thinking
+43 Philosopher 32 is thinking
+1743171022728 Philosopher 32 is taking right fork 31
+1743171022728 Philosopher 32 is taking left fork 30
+43 Philosopher 32 is eating
+44 Philosopher 33 is thinking
+45 Philosopher 34 is thinking
+1743171022728 Philosopher 34 is taking right fork 33
+1743171022728 Philosopher 34 is taking left fork 32
+45 Philosopher 34 is eating
+46 Philosopher 35 is thinking
+47 Philosopher 36 is thinking
+1743171022728 Philosopher 36 is taking right fork 35
+1743171022728 Philosopher 36 is taking left fork 34
+47 Philosopher 36 is eating
+48 Philosopher 37 is thinking
+49 Philosopher 38 is thinking
+1743171022728 Philosopher 38 is taking right fork 37
+1743171022728 Philosopher 38 is taking left fork 36
+49 Philosopher 38 is eating
+50 Philosopher 39 is thinking
+51 Philosopher 40 is thinking
+1743171022728 Philosopher 40 is taking right fork 39
+1743171022728 Philosopher 40 is taking left fork 38
+51 Philosopher 40 is eating
+52 Philosopher 41 is thinking
+53 Philosopher 42 is thinking
+1743171022728 Philosopher 42 is taking right fork 41
+1743171022728 Philosopher 42 is taking left fork 40
+68 Philosopher 42 is eating
+69 Philosopher 62 is thinking
+1743171022728 Philosopher 62 is taking right fork 61
+1743171022728 Philosopher 62 is taking left fork 60
+69 Philosopher 62 is eating
+70 Philosopher 43 is thinking
+70 Philosopher 63 is thinking
+70 Philosopher 44 is thinking
+71 Philosopher 64 is thinking
+1743171022728 Philosopher 64 is taking right fork 63
+1743171022728 Philosopher 64 is taking left fork 62
+71 Philosopher 64 is eating
+1743171022728 Philosopher 44 is taking right fork 43
+1743171022728 Philosopher 44 is taking left fork 42
+72 Philosopher 44 is eating
+72 Philosopher 45 is thinking
+73 Philosopher 65 is thinking
+73 Philosopher 46 is thinking
+74 Philosopher 66 is thinking
+1743171022728 Philosopher 66 is taking right fork 65
+1743171022728 Philosopher 66 is taking left fork 64
+74 Philosopher 66 is eating
+75 Philosopher 1 is sleeping
+1743171022728 Philosopher 2 is taking left fork 0
+75 Philosopher 2 is eating
+1743171022728 Philosopher 46 is taking right fork 45
+1743171022728 Philosopher 46 is taking left fork 44
+75 Philosopher 46 is eating
+75 Philosopher 47 is thinking
+76 Philosopher 67 is thinking
+76 Philosopher 48 is thinking
+77 Philosopher 68 is thinking
+1743171022728 Philosopher 68 is taking right fork 67
+1743171022728 Philosopher 68 is taking left fork 66
+78 Philosopher 68 is eating
+1743171022728 Philosopher 48 is taking right fork 47
+1743171022728 Philosopher 48 is taking left fork 46
+78 Philosopher 48 is eating
+78 Philosopher 49 is thinking
+78 Philosopher 4 is sleeping
+1743171022728 Philosopher 5 is taking left fork 3
+80 Philosopher 69 is thinking
+80 Philosopher 50 is thinking
+81 Philosopher 70 is thinking
+1743171022728 Philosopher 70 is taking right fork 69
+1743171022728 Philosopher 70 is taking left fork 68
+81 Philosopher 70 is eating
+1743171022728 Philosopher 5 is taking right fork 4
+81 Philosopher 5 is eating
+82 Philosopher 6 is sleeping
+1743171022728 Philosopher 7 is taking left fork 5
+1743171022728 Philosopher 7 is taking right fork 6
+82 Philosopher 7 is eating
+1743171022728 Philosopher 50 is taking right fork 49
+1743171022728 Philosopher 50 is taking left fork 48
+82 Philosopher 50 is eating
+83 Philosopher 51 is thinking
+83 Philosopher 8 is sleeping
+1743171022728 Philosopher 9 is taking left fork 7
+84 Philosopher 71 is thinking
+85 Philosopher 52 is thinking
+86 Philosopher 10 is sleeping
+1743171022728 Philosopher 52 is taking right fork 51
+1743171022728 Philosopher 52 is taking left fork 50
+86 Philosopher 52 is eating
+86 Philosopher 53 is thinking
+87 Philosopher 12 is sleeping
+1743171022728 Philosopher 13 is taking left fork 11
+87 Philosopher 72 is thinking
+1743171022728 Philosopher 72 is taking right fork 71
+1743171022728 Philosopher 72 is taking left fork 70
+87 Philosopher 72 is eating
+88 Philosopher 73 is thinking
+1743171022728 Philosopher 11 is taking left fork 9
+1743171022728 Philosopher 11 is taking right fork 10
+89 Philosopher 11 is eating
+89 Philosopher 54 is thinking
+1743171022728 Philosopher 13 is taking right fork 12
+89 Philosopher 13 is eating
+90 Philosopher 74 is thinking
+1743171022728 Philosopher 74 is taking right fork 73
+1743171022728 Philosopher 74 is taking left fork 72
+91 Philosopher 74 is eating
+1743171022728 Philosopher 54 is taking right fork 53
+1743171022728 Philosopher 54 is taking left fork 52
+91 Philosopher 54 is eating
+91 Philosopher 55 is thinking
+92 Philosopher 14 is sleeping
+1743171022728 Philosopher 15 is taking left fork 13
+1743171022728 Philosopher 15 is taking right fork 14
+92 Philosopher 15 is eating
+92 Philosopher 16 is sleeping
+1743171022728 Philosopher 17 is taking left fork 15
+1743171022728 Philosopher 17 is taking right fork 16
+93 Philosopher 17 is eating
+94 Philosopher 75 is thinking
+94 Philosopher 18 is sleeping
+1743171022728 Philosopher 19 is taking left fork 17
+1743171022728 Philosopher 19 is taking right fork 18
+95 Philosopher 19 is eating
+95 Philosopher 56 is thinking
+96 Philosopher 76 is thinking
+1743171022728 Philosopher 76 is taking right fork 75
+1743171022728 Philosopher 76 is taking left fork 74
+1743171022728 Philosopher 56 is taking right fork 55
+1743171022728 Philosopher 56 is taking left fork 54
+97 Philosopher 56 is eating
+97 Philosopher 57 is thinking
+98 Philosopher 77 is thinking
+98 Philosopher 76 is eating
+98 Philosopher 58 is thinking
+98 Philosopher 22 is sleeping
+1743171022728 Philosopher 23 is taking left fork 21
+1743171022728 Philosopher 23 is taking right fork 22
+99 Philosopher 23 is eating
+99 Philosopher 59 is thinking
+100 Philosopher 78 is thinking
+1743171022728 Philosopher 78 is taking right fork 77
+1743171022728 Philosopher 78 is taking left fork 76
+100 Philosopher 78 is eating
+1743171022728 Philosopher 21 is taking left fork 19
+1743171022728 Philosopher 21 is taking right fork 20
+101 Philosopher 21 is eating
+101 Philosopher 24 is sleeping
+1743171022728 Philosopher 25 is taking left fork 23
+1743171022728 Philosopher 25 is taking right fork 24
+102 Philosopher 25 is eating
+103 Philosopher 26 is sleeping
+1743171022728 Philosopher 27 is taking left fork 25
+1743171022728 Philosopher 58 is taking right fork 57
+1743171022728 Philosopher 58 is taking left fork 56
+103 Philosopher 58 is eating
+103 Philosopher 60 is thinking
+104 Philosopher 61 is thinking
+1743171022728 Philosopher 61 is taking left fork 59
+1743171022728 Philosopher 9 is taking right fork 8
+104 Philosopher 9 is eating
+105 Philosopher 20 is sleeping
+105 Philosopher 79 is thinking
+1743171022728 Philosopher 27 is taking right fork 26
+106 Philosopher 27 is eating
+106 Philosopher 30 is sleeping
+1743171022728 Philosopher 31 is taking left fork 29
+107 Philosopher 80 is thinking
+1743171022728 Philosopher 80 is taking right fork 79
+1743171022728 Philosopher 80 is taking left fork 78
+108 Philosopher 80 is eating
+108 Philosopher 28 is sleeping
+1743171022728 Philosopher 29 is taking left fork 27
+1743171022728 Philosopher 29 is taking right fork 28
+108 Philosopher 29 is eating
+1743171022728 Philosopher 31 is taking right fork 30
+109 Philosopher 31 is eating
+109 Philosopher 34 is sleeping
+1743171022728 Philosopher 35 is taking left fork 33
+110 Philosopher 81 is thinking
+110 Philosopher 32 is sleeping
+1743171022728 Philosopher 33 is taking left fork 31
+1743171022728 Philosopher 33 is taking right fork 32
+111 Philosopher 33 is eating
+112 Philosopher 82 is thinking
+1743171022728 Philosopher 82 is taking right fork 81
+1743171022728 Philosopher 82 is taking left fork 80
+112 Philosopher 82 is eating
+1743171022728 Philosopher 35 is taking right fork 34
+113 Philosopher 35 is eating
+114 Philosopher 38 is sleeping
+1743171022728 Philosopher 39 is taking left fork 37
+115 Philosopher 83 is thinking
+115 Philosopher 36 is sleeping
+1743171022728 Philosopher 37 is taking left fork 35
+1743171022728 Philosopher 37 is taking right fork 36
+116 Philosopher 37 is eating
+116 Philosopher 84 is thinking
+1743171022728 Philosopher 84 is taking right fork 83
+1743171022728 Philosopher 84 is taking left fork 82
+117 Philosopher 84 is eating
+118 Philosopher 85 is thinking
+119 Philosopher 86 is thinking
+1743171022728 Philosopher 86 is taking right fork 85
+1743171022728 Philosopher 86 is taking left fork 84
+119 Philosopher 86 is eating
+120 Philosopher 87 is thinking
+122 Philosopher 88 is thinking
+1743171022728 Philosopher 88 is taking right fork 87
+1743171022728 Philosopher 88 is taking left fork 86
+122 Philosopher 88 is eating
+123 Philosopher 89 is thinking
+1743171022728 Philosopher 39 is taking right fork 38
+124 Philosopher 39 is eating
+125 Philosopher 90 is thinking
+1743171022728 Philosopher 90 is taking right fork 89
+1743171022728 Philosopher 90 is taking left fork 88
+125 Philosopher 90 is eating
+126 Philosopher 40 is sleeping
+1743171022728 Philosopher 41 is taking left fork 39
+128 Philosopher 91 is thinking
+129 Philosopher 92 is thinking
+1743171022728 Philosopher 92 is taking right fork 91
+1743171022728 Philosopher 92 is taking left fork 90
+130 Philosopher 92 is eating
+131 Philosopher 93 is thinking
+1743171022728 Philosopher 41 is taking right fork 40
+131 Philosopher 41 is eating
+132 Philosopher 94 is thinking
+1743171022728 Philosopher 94 is taking right fork 93
+1743171022728 Philosopher 61 is taking right fork 60
+135 Philosopher 61 is eating
+135 Philosopher 62 is sleeping
+1743171022728 Philosopher 63 is taking left fork 61
+136 Philosopher 96 is thinking
+1743171022728 Philosopher 96 is taking right fork 95
+1743171022728 Philosopher 96 is taking left fork 94
+137 Philosopher 96 is eating
+1743171022728 Philosopher 94 is taking left fork 92
+137 Philosopher 94 is eating
+137 Philosopher 42 is sleeping
+1743171022728 Philosopher 63 is taking right fork 62
+138 Philosopher 63 is eating
+138 Philosopher 44 is sleeping
+1743171022728 Philosopher 45 is taking left fork 43
+140 Philosopher 97 is thinking
+1743171022728 Philosopher 43 is taking left fork 41
+140 Philosopher 66 is sleeping
+1743171022728 Philosopher 67 is taking left fork 65
+141 Philosopher 2 is sleeping
+1743171022728 Philosopher 3 is taking left fork 1
+1743171022728 Philosopher 3 is taking right fork 2
+142 Philosopher 3 is eating
+142 Philosopher 64 is sleeping
+1743171022728 Philosopher 65 is taking left fork 63
+1743171022728 Philosopher 65 is taking right fork 64
+142 Philosopher 65 is eating
+1743171022728 Philosopher 45 is taking right fork 44
+144 Philosopher 45 is eating
+145 Philosopher 98 is thinking
+1743171022728 Philosopher 98 is taking right fork 97
+1743171022728 Philosopher 98 is taking left fork 96
+146 Philosopher 98 is eating
+1743171022728 Philosopher 43 is taking right fork 42
+146 Philosopher 43 is eating
+146 Philosopher 95 is thinking
+147 Philosopher 5 is sleeping
+148 Philosopher 50 is sleeping
+1743171022728 Philosopher 51 is taking left fork 49
+148 Philosopher 48 is sleeping
+1743171022728 Philosopher 49 is taking left fork 47
+1743171022728 Philosopher 49 is taking right fork 48
+149 Philosopher 49 is eating
+149 Philosopher 46 is sleeping
+1743171022728 Philosopher 47 is taking left fork 45
+1743171022728 Philosopher 47 is taking right fork 46
+149 Philosopher 47 is eating
+150 Philosopher 13 is sleeping
+151 Philosopher 99 is thinking
+152 Philosopher 70 is sleeping
+1743171022728 Philosopher 71 is taking left fork 69
+152 Philosopher 7 is sleeping
+152 Philosopher 11 is sleeping
+154 Philosopher 100 is thinking
+1743171022728 Philosopher 100 is taking right fork 99
+1743171022728 Philosopher 100 is taking left fork 98
+154 Philosopher 100 is eating
+1743171022728 Philosopher 51 is taking right fork 50
+155 Philosopher 51 is eating
+1743171022728 Philosopher 71 is taking right fork 70
+155 Philosopher 71 is eating
+155 Philosopher 15 is sleeping
+156 Philosopher 17 is sleeping
+157 Philosopher 101 is thinking
+157 Philosopher 74 is sleeping
+1743171022728 Philosopher 75 is taking left fork 73
+158 Philosopher 52 is sleeping
+1743171022728 Philosopher 53 is taking left fork 51
+1743171022728 Philosopher 53 is taking right fork 52
+158 Philosopher 53 is eating
+158 Philosopher 19 is sleeping
+1743171022728 Philosopher 55 is taking left fork 53
+1743171022728 Philosopher 55 is taking right fork 54
+160 Philosopher 55 is eating
+1743171022728 Philosopher 67 is taking right fork 66
+160 Philosopher 67 is eating
+161 Philosopher 72 is sleeping
+1743171022728 Philosopher 73 is taking left fork 71
+1743171022728 Philosopher 73 is taking right fork 72
+161 Philosopher 73 is eating
+163 Philosopher 102 is thinking
+1743171022728 Philosopher 102 is taking right fork 101
+1743171022728 Philosopher 102 is taking left fork 100
+163 Philosopher 102 is eating
+163 Philosopher 56 is sleeping
+1743171022728 Philosopher 57 is taking left fork 55
+164 Philosopher 9 is sleeping
+165 Philosopher 54 is sleeping
+165 Philosopher 1 is thinking
+1743171022728 Philosopher 1 is taking left fork 199
+1743171022728 Philosopher 1 is taking right fork 0
+165 Philosopher 1 is eating
+166 Philosopher 4 is thinking
+1743171022728 Philosopher 4 is taking right fork 3
+166 Philosopher 23 is sleeping
+1743171022728 Philosopher 69 is taking left fork 67
+1743171022728 Philosopher 69 is taking right fork 68
+167 Philosopher 69 is eating
+167 Philosopher 21 is sleeping
+169 Philosopher 103 is thinking
+1743171022728 Philosopher 75 is taking right fork 74
+170 Philosopher 75 is eating
+170 Philosopher 27 is sleeping
+173 Philosopher 33 is sleeping
+173 Philosopher 8 is thinking
+1743171022728 Philosopher 8 is taking right fork 7
+1743171022728 Philosopher 8 is taking left fork 6
+175 Philosopher 8 is eating
+175 Philosopher 80 is sleeping
+1743171022728 Philosopher 81 is taking left fork 79
+176 Philosopher 12 is thinking
+1743171022728 Philosopher 12 is taking right fork 11
+1743171022728 Philosopher 12 is taking left fork 10
+176 Philosopher 12 is eating
+177 Philosopher 78 is sleeping
+177 Philosopher 35 is sleeping
+178 Philosopher 37 is sleeping
+178 Philosopher 104 is thinking
+1743171022728 Philosopher 104 is taking right fork 103
+1743171022728 Philosopher 104 is taking left fork 102
+179 Philosopher 104 is eating
+180 Philosopher 58 is sleeping
+1743171022728 Philosopher 81 is taking right fork 80
+180 Philosopher 81 is eating
+1743171022728 Philosopher 79 is taking left fork 77
+182 Philosopher 105 is thinking
+182 Philosopher 10 is thinking
+1743171022728 Philosopher 10 is taking right fork 9
+1743171022728 Philosopher 10 is taking left fork 8
+183 Philosopher 10 is eating
+184 Philosopher 106 is thinking
+1743171022728 Philosopher 106 is taking right fork 105
+1743171022728 Philosopher 106 is taking left fork 104
+184 Philosopher 106 is eating
+185 Philosopher 82 is sleeping
+1743171022728 Philosopher 83 is taking left fork 81
+1743171022728 Philosopher 83 is taking right fork 82
+185 Philosopher 83 is eating
+1743171022728 Philosopher 79 is taking right fork 78
+186 Philosopher 79 is eating
+186 Philosopher 25 is sleeping
+186 Philosopher 84 is sleeping
+1743171022728 Philosopher 85 is taking left fork 83
+1743171022728 Philosopher 85 is taking right fork 84
+187 Philosopher 85 is eating
+187 Philosopher 86 is sleeping
+1743171022728 Philosopher 87 is taking left fork 85
+188 Philosopher 18 is thinking
+1743171022728 Philosopher 18 is taking right fork 17
+1743171022728 Philosopher 18 is taking left fork 16
+190 Philosopher 18 is eating
+191 Philosopher 107 is thinking
+191 Philosopher 39 is sleeping
+192 Philosopher 29 is sleeping
+192 Philosopher 14 is thinking
+1743171022728 Philosopher 14 is taking right fork 13
+1743171022728 Philosopher 14 is taking left fork 12
+193 Philosopher 14 is eating
+193 Philosopher 6 is thinking
+1743171022728 Philosopher 6 is taking right fork 5
+1743171022728 Philosopher 6 is taking left fork 4
+194 Philosopher 6 is eating
+194 Philosopher 16 is thinking
+1743171022728 Philosopher 16 is taking right fork 15
+1743171022728 Philosopher 16 is taking left fork 14
+195 Philosopher 16 is eating
+1743171022728 Philosopher 87 is taking right fork 86
+195 Philosopher 87 is eating
+1743171022728 Philosopher 59 is taking left fork 57
+1743171022728 Philosopher 59 is taking right fork 58
+197 Philosopher 59 is eating
+197 Philosopher 41 is sleeping
+197 Philosopher 90 is sleeping
+197 Philosopher 31 is sleeping
+198 Philosopher 24 is thinking
+1743171022728 Philosopher 24 is taking right fork 23
+1743171022728 Philosopher 24 is taking left fork 22
+198 Philosopher 24 is eating
+199 Philosopher 22 is thinking
+1743171022728 Philosopher 22 is taking right fork 21
+1743171022728 Philosopher 22 is taking left fork 20
+199 Philosopher 22 is eating
+200 Philosopher 26 is thinking
+1743171022728 Philosopher 26 is taking right fork 25
+1743171022728 Philosopher 26 is taking left fork 24
+200 Philosopher 26 is eating
+201 Philosopher 88 is sleeping
+1743171022728 Philosopher 89 is taking left fork 87
+1743171022728 Philosopher 89 is taking right fork 88
+201 Philosopher 89 is eating
+202 Philosopher 92 is sleeping
+1743171022728 Philosopher 93 is taking left fork 91
+203 Philosopher 108 is thinking
+1743171022728 Philosopher 108 is taking right fork 107
+1743171022728 Philosopher 108 is taking left fork 106
+204 Philosopher 108 is eating
+1743171022728 Philosopher 91 is taking left fork 89
+1743171022728 Philosopher 91 is taking right fork 90
+206 Philosopher 91 is eating
+1743171022728 Philosopher 57 is taking right fork 56
+207 Philosopher 63 is sleeping
+207 Philosopher 20 is thinking
+1743171022728 Philosopher 20 is taking right fork 19
+1743171022728 Philosopher 20 is taking left fork 18
+212 Philosopher 49 is sleeping
+212 Philosopher 3 is sleeping
+1743171022728 Philosopher 4 is taking left fork 2
+212 Philosopher 47 is sleeping
+213 Philosopher 94 is sleeping
+1743171022728 Philosopher 95 is taking left fork 93
+1743171022728 Philosopher 95 is taking right fork 94
+213 Philosopher 98 is sleeping
+1743171022728 Philosopher 99 is taking left fork 97
+1743171022728 Philosopher 77 is taking left fork 75
+216 Philosopher 109 is thinking
+216 Philosopher 32 is thinking
+1743171022728 Philosopher 32 is taking right fork 31
+1743171022728 Philosopher 32 is taking left fork 30
+1743171022728 Philosopher 60 is taking right fork 59
+1743171022728 Philosopher 77 is taking right fork 76
+217 Philosopher 68 is sleeping
+1743171022728 Philosopher 99 is taking right fork 98
+218 Philosopher 71 is sleeping
+220 Philosopher 34 is thinking
+220 Philosopher 100 is sleeping
+1743171022728 Philosopher 101 is taking left fork 99
+220 Philosopher 55 is sleeping
+220 Philosopher 51 is sleeping
+223 Philosopher 110 is thinking
+1743171022728 Philosopher 110 is taking right fork 109
+1743171022728 Philosopher 110 is taking left fork 108
+224 Philosopher 53 is sleeping
+224 Philosopher 28 is thinking
+227 Philosopher 111 is thinking
+227 Philosopher 40 is thinking
+1743171022728 Philosopher 40 is taking right fork 39
+1743171022728 Philosopher 40 is taking left fork 38
+1743171022728 Philosopher 34 is taking right fork 33
+1743171022728 Philosopher 34 is taking left fork 32
+1743171022728 Philosopher 28 is taking right fork 27
+1743171022728 Philosopher 28 is taking left fork 26
+229 Philosopher 61 is sleeping
+229 Philosopher 36 is thinking
+1743171022728 Philosopher 36 is taking right fork 35
+1743171022728 Philosopher 36 is taking left fork 34
+230 Philosopher 67 is sleeping
+230 Philosopher 62 is thinking
+1743171022728 Philosopher 62 is taking right fork 61
+1743171022728 Philosopher 62 is taking left fork 60
+231 Philosopher 73 is sleeping
+231 Philosopher 1 is sleeping
+233 Philosopher 112 is thinking
+1743171022728 Philosopher 112 is taking right fork 111
+1743171022728 Philosopher 112 is taking left fork 110
+1743171022728 Philosopher 101 is taking right fork 100
+234 Philosopher 69 is sleeping
+234 Philosopher 65 is sleeping
+234 Philosopher 75 is sleeping
+235 Philosopher 8 is sleeping
+237 Philosopher 113 is thinking
+237 Philosopher 102 is sleeping
+1743171022728 Philosopher 103 is taking left fork 101
+238 Philosopher 96 is sleeping
+240 Philosopher 12 is sleeping
+1743171022728 Philosopher 97 is taking left fork 95
+242 Philosopher 114 is thinking
+1743171022728 Philosopher 114 is taking right fork 113
+1743171022728 Philosopher 114 is taking left fork 112
+244 Philosopher 115 is thinking
+245 Philosopher 5 is thinking
+246 Philosopher 79 is sleeping
+1743171022728 Philosopher 103 is taking right fork 102
+247 Philosopher 30 is thinking
+1743171022728 Philosopher 30 is taking right fork 29
+1743171022728 Philosopher 30 is taking left fork 28
+247 Philosopher 10 is sleeping
+248 Philosopher 116 is thinking
+1743171022728 Philosopher 116 is taking right fork 115
+1743171022728 Philosopher 116 is taking left fork 114
+249 Philosopher 42 is thinking
+1743171022728 Philosopher 42 is taking right fork 41
+1743171022728 Philosopher 42 is taking left fork 40
+251 Philosopher 15 is thinking
+251 Philosopher 48 is thinking
+1743171022728 Philosopher 48 is taking right fork 47
+1743171022728 Philosopher 48 is taking left fork 46
+251 Philosopher 83 is sleeping
+1743171022728 Philosopher 97 is taking right fork 96
+252 Philosopher 85 is sleeping
+253 Philosopher 64 is thinking
+1743171022728 Philosopher 64 is taking right fork 63
+1743171022728 Philosopher 64 is taking left fork 62
+254 Philosopher 117 is thinking
+255 Philosopher 18 is sleeping
+255 Philosopher 81 is sleeping
+256 Philosopher 87 is sleeping
+256 Philosopher 50 is thinking
+1743171022728 Philosopher 50 is taking right fork 49
+1743171022728 Philosopher 50 is taking left fork 48
+257 Philosopher 45 is sleeping
+258 Philosopher 104 is sleeping
+1743171022728 Philosopher 105 is taking left fork 103
+1743171022728 Philosopher 105 is taking right fork 104
+260 Philosopher 44 is thinking
+264 Philosopher 14 is sleeping
+1743171022728 Philosopher 15 is taking left fork 13
+1743171022728 Philosopher 15 is taking right fork 14
+265 Philosopher 26 is sleeping
+266 Philosopher 91 is sleeping
+266 Philosopher 54 is thinking
+1743171022728 Philosopher 54 is taking right fork 53
+1743171022728 Philosopher 54 is taking left fork 52
+267 Philosopher 46 is thinking
+1743171022728 Philosopher 46 is taking right fork 45
+1743171022728 Philosopher 46 is taking left fork 44
+268 Philosopher 59 is sleeping
+1743171022728 Philosopher 60 is taking left fork 58
+1743171022728 Philosopher 93 is taking right fork 92
+268 Philosopher 52 is thinking
+1743171022728 Philosopher 52 is taking right fork 51
+1743171022728 Philosopher 52 is taking left fork 50
+269 Philosopher 13 is thinking
+1743171022728 Philosopher 13 is taking left fork 11
+1743171022728 Philosopher 13 is taking right fork 12
+270 Philosopher 19 is thinking
+1743171022728 Philosopher 19 is taking left fork 17
+1743171022728 Philosopher 44 is taking right fork 43
+1743171022728 Philosopher 44 is taking left fork 42
+271 Philosopher 57 is eating
+272 Philosopher 9 is thinking
+1743171022728 Philosopher 9 is taking left fork 7
+1743171022728 Philosopher 9 is taking right fork 8
+273 Philosopher 72 is thinking
+1743171022728 Philosopher 72 is taking right fork 71
+1743171022728 Philosopher 72 is taking left fork 70
+274 Philosopher 76 is sleeping
+274 Philosopher 2 is thinking
+1743171022728 Philosopher 2 is taking right fork 1
+1743171022728 Philosopher 2 is taking left fork 0
+275 Philosopher 23 is thinking
+1743171022728 Philosopher 23 is taking left fork 21
+1743171022728 Philosopher 23 is taking right fork 22
+278 Philosopher 108 is sleeping
+1743171022728 Philosopher 109 is taking left fork 107
+278 Philosopher 43 is sleeping
+279 Philosopher 56 is thinking
+279 Philosopher 82 is thinking
+1743171022728 Philosopher 82 is taking right fork 81
+1743171022728 Philosopher 82 is taking left fork 80
+280 Philosopher 82 is eating
+280 Philosopher 119 is thinking
+1743171022728 Philosopher 119 is taking left fork 117
+1743171022728 Philosopher 119 is taking right fork 118
+281 Philosopher 119 is eating
+282 Philosopher 35 is thinking
+282 Philosopher 21 is thinking
+283 Philosopher 4 is eating
+283 Philosopher 6 is sleeping
+283 Philosopher 80 is thinking
+1743171022728 Philosopher 80 is taking right fork 79
+1743171022728 Philosopher 80 is taking left fork 78
+284 Philosopher 80 is eating
+286 Philosopher 78 is thinking
+1743171022728 Philosopher 78 is taking right fork 77
+286 Philosopher 38 is thinking
+287 Philosopher 95 is eating
+287 Philosopher 70 is thinking
+1743171022728 Philosopher 70 is taking right fork 69
+1743171022728 Philosopher 70 is taking left fork 68
+288 Philosopher 70 is eating
+288 Philosopher 84 is thinking
+1743171022728 Philosopher 84 is taking right fork 83
+1743171022728 Philosopher 84 is taking left fork 82
+289 Philosopher 84 is eating
+290 Philosopher 120 is thinking
+1743171022728 Philosopher 120 is taking right fork 119
+291 Philosopher 121 is thinking
+1743171022728 Philosopher 38 is taking right fork 37
+1743171022728 Philosopher 38 is taking left fork 36
+292 Philosopher 38 is eating
+292 Philosopher 16 is sleeping
+292 Philosopher 33 is thinking
+293 Philosopher 118 is thinking
+293 Philosopher 90 is thinking
+1743171022728 Philosopher 90 is taking right fork 89
+1743171022728 Philosopher 90 is taking left fork 88
+294 Philosopher 90 is eating
+297 Philosopher 122 is thinking
+1743171022728 Philosopher 122 is taking right fork 121
+1743171022728 Philosopher 122 is taking left fork 120
+298 Philosopher 122 is eating
+298 Philosopher 89 is sleeping
+299 Philosopher 20 is eating
+299 Philosopher 32 is eating
+300 Philosopher 106 is sleeping
+301 Philosopher 25 is thinking
+1743171022728 Philosopher 25 is taking left fork 23
+1743171022728 Philosopher 25 is taking right fork 24
+302 Philosopher 25 is eating
+1743171022728 Philosopher 107 is taking left fork 105
+302 Philosopher 37 is thinking
+303 Philosopher 58 is thinking
+1743171022728 Philosopher 58 is taking right fork 57
+303 Philosopher 29 is thinking
+308 Philosopher 74 is thinking
+1743171022728 Philosopher 74 is taking right fork 73
+1743171022728 Philosopher 74 is taking left fork 72
+309 Philosopher 124 is thinking
+1743171022728 Philosopher 124 is taking right fork 123
+1743171022728 Philosopher 124 is taking left fork 122
+310 Philosopher 11 is thinking
+312 Philosopher 88 is thinking
+1743171022728 Philosopher 88 is taking right fork 87
+1743171022728 Philosopher 88 is taking left fork 86
+313 Philosopher 63 is thinking
+1743171022728 Philosopher 11 is taking left fork 9
+1743171022728 Philosopher 11 is taking right fork 10
+313 Philosopher 17 is thinking
+314 Philosopher 125 is thinking
+314 Philosopher 71 is thinking
+315 Philosopher 126 is thinking
+1743171022728 Philosopher 126 is taking right fork 125
+1743171022728 Philosopher 126 is taking left fork 124
+316 Philosopher 49 is thinking
+317 Philosopher 39 is thinking
+1743171022728 Philosopher 17 is taking left fork 15
+1743171022728 Philosopher 17 is taking right fork 16
+318 Philosopher 24 is sleeping
+321 Philosopher 127 is thinking
+322 Philosopher 22 is sleeping
+324 Philosopher 128 is thinking
+1743171022728 Philosopher 128 is taking right fork 127
+1743171022728 Philosopher 128 is taking left fork 126
+324 Philosopher 77 is eating
+325 Philosopher 51 is thinking
+325 Philosopher 100 is thinking
+326 Philosopher 55 is thinking
+326 Philosopher 3 is thinking
+327 Philosopher 129 is thinking
+328 Philosopher 47 is thinking
+329 Philosopher 130 is thinking
+1743171022728 Philosopher 130 is taking right fork 129
+1743171022728 Philosopher 130 is taking left fork 128
+329 Philosopher 130 is eating
+330 Philosopher 94 is thinking
+330 Philosopher 98 is thinking
+330 Philosopher 53 is thinking
+331 Philosopher 7 is thinking
+331 Philosopher 99 is eating
+332 Philosopher 31 is thinking
+332 Philosopher 61 is thinking
+334 Philosopher 69 is thinking
+1743171022728 Philosopher 69 is taking left fork 67
+334 Philosopher 68 is thinking
+335 Philosopher 110 is eating
+335 Philosopher 1 is thinking
+1743171022728 Philosopher 1 is taking left fork 199
+336 Philosopher 131 is thinking
+337 Philosopher 132 is thinking
+1743171022728 Philosopher 132 is taking right fork 131
+1743171022728 Philosopher 132 is taking left fork 130
+337 Philosopher 132 is eating
+1743171022728 Philosopher 7 is taking left fork 5
+1743171022728 Philosopher 7 is taking right fork 6
+338 Philosopher 7 is eating
+339 Philosopher 92 is thinking
+339 Philosopher 102 is thinking
+339 Philosopher 40 is eating
+341 Philosopher 133 is thinking
+342 Philosopher 8 is thinking
+342 Philosopher 75 is thinking
+343 Philosopher 123 is thinking
+343 Philosopher 34 is eating
+344 Philosopher 82 is sleeping
+344 Philosopher 80 is sleeping
+345 Philosopher 67 is thinking
+1743171022728 Philosopher 67 is taking left fork 65
+1743171022728 Philosopher 67 is taking right fork 66
+347 Philosopher 67 is eating
+347 Philosopher 85 is thinking
+349 Philosopher 134 is thinking
+1743171022728 Philosopher 134 is taking right fork 133
+1743171022728 Philosopher 134 is taking left fork 132
+350 Philosopher 134 is eating
+350 Philosopher 96 is thinking
+1743171022728 Philosopher 107 is taking right fork 106
+351 Philosopher 28 is eating
+351 Philosopher 12 is thinking
+351 Philosopher 79 is thinking
+1743171022728 Philosopher 118 is taking right fork 117
+1743171022728 Philosopher 118 is taking left fork 116
+352 Philosopher 118 is eating
+353 Philosopher 65 is thinking
+353 Philosopher 81 is thinking
+1743171022728 Philosopher 81 is taking left fork 79
+1743171022728 Philosopher 81 is taking right fork 80
+354 Philosopher 81 is eating
+354 Philosopher 18 is thinking
+355 Philosopher 135 is thinking
+356 Philosopher 87 is thinking
+1743171022728 Philosopher 87 is taking left fork 85
+1743171022728 Philosopher 56 is taking right fork 55
+1743171022728 Philosopher 56 is taking left fork 54
+357 Philosopher 56 is eating
+358 Philosopher 107 is eating
+358 Philosopher 86 is thinking
+358 Philosopher 36 is eating
+359 Philosopher 4 is sleeping
+1743171022728 Philosopher 5 is taking left fork 3
+1743171022728 Philosopher 5 is taking right fork 4
+359 Philosopher 5 is eating
+363 Philosopher 70 is sleeping
+364 Philosopher 25 is sleeping
+1743171022728 Philosopher 123 is taking left fork 121
+365 Philosopher 95 is sleeping
+1743171022728 Philosopher 94 is taking right fork 93
+1743171022728 Philosopher 19 is taking right fork 18
+366 Philosopher 27 is thinking
+1743171022728 Philosopher 71 is taking left fork 69
+367 Philosopher 20 is sleeping
+1743171022728 Philosopher 21 is taking left fork 19
+1743171022728 Philosopher 21 is taking right fork 20
+368 Philosopher 21 is eating
+368 Philosopher 112 is eating
+1743171022728 Philosopher 27 is taking left fork 25
+369 Philosopher 66 is thinking
+369 Philosopher 59 is thinking
+369 Philosopher 137 is thinking
+1743171022728 Philosopher 137 is taking left fork 135
+1743171022728 Philosopher 137 is taking right fork 136
+370 Philosopher 137 is eating
+371 Philosopher 45 is thinking
+372 Philosopher 101 is eating
+1743171022728 Philosopher 69 is taking right fork 68
+372 Philosopher 14 is thinking
+375 Philosopher 26 is thinking
+375 Philosopher 138 is thinking
+1743171022728 Philosopher 138 is taking right fork 137
+377 Philosopher 139 is thinking
+377 Philosopher 114 is eating
+377 Philosopher 69 is eating
+377 Philosopher 90 is sleeping
+378 Philosopher 32 is sleeping
+1743171022728 Philosopher 33 is taking left fork 31
+379 Philosopher 140 is thinking
+1743171022728 Philosopher 140 is taking right fork 139
+1743171022728 Philosopher 140 is taking left fork 138
+380 Philosopher 140 is eating
+380 Philosopher 103 is eating
+381 Philosopher 136 is thinking
+381 Philosopher 43 is thinking
+381 Philosopher 108 is thinking
+382 Philosopher 141 is thinking
+383 Philosopher 76 is thinking
+383 Philosopher 30 is eating
+384 Philosopher 84 is sleeping
+385 Philosopher 142 is thinking
+1743171022728 Philosopher 142 is taking right fork 141
+1743171022728 Philosopher 142 is taking left fork 140
+386 Philosopher 142 is eating
+386 Philosopher 116 is eating
+1743171022728 Philosopher 85 is taking left fork 83
+1743171022728 Philosopher 85 is taking right fork 84
+388 Philosopher 85 is eating
+388 Philosopher 10 is thinking
+389 Philosopher 73 is thinking
+389 Philosopher 6 is thinking
+389 Philosopher 143 is thinking
+391 Philosopher 144 is thinking
+1743171022728 Philosopher 144 is taking right fork 143
+1743171022728 Philosopher 144 is taking left fork 142
+391 Philosopher 144 is eating
+392 Philosopher 57 is sleeping
+392 Philosopher 89 is thinking
+393 Philosopher 145 is thinking
+1743171022728 Philosopher 58 is taking left fork 56
+394 Philosopher 130 is sleeping
+1743171022728 Philosopher 131 is taking left fork 129
+396 Philosopher 146 is thinking
+1743171022728 Philosopher 146 is taking right fork 145
+1743171022728 Philosopher 146 is taking left fork 144
+396 Philosopher 146 is eating
+1743171022728 Philosopher 76 is taking right fork 75
+1743171022728 Philosopher 76 is taking left fork 74
+397 Philosopher 76 is eating
+397 Philosopher 58 is eating
+398 Philosopher 83 is thinking
+398 Philosopher 42 is eating
+399 Philosopher 77 is sleeping
+1743171022728 Philosopher 78 is taking left fork 76
+399 Philosopher 78 is eating
+1743171022728 Philosopher 83 is taking left fork 81
+1743171022728 Philosopher 83 is taking right fork 82
+400 Philosopher 83 is eating
+401 Philosopher 41 is thinking
+401 Philosopher 16 is thinking
+402 Philosopher 147 is thinking
+402 Philosopher 48 is eating
+1743171022728 Philosopher 131 is taking right fork 130
+403 Philosopher 131 is eating
+404 Philosopher 99 is sleeping
+406 Philosopher 122 is sleeping
+407 Philosopher 148 is thinking
+1743171022728 Philosopher 148 is taking right fork 147
+1743171022728 Philosopher 148 is taking left fork 146
+408 Philosopher 148 is eating
+408 Philosopher 97 is eating
+409 Philosopher 7 is sleeping
+1743171022728 Philosopher 6 is taking right fork 5
+1743171022728 Philosopher 109 is taking right fork 108
+409 Philosopher 109 is eating
+410 Philosopher 132 is sleeping
+1743171022728 Philosopher 133 is taking left fork 131
+1743171022728 Philosopher 98 is taking right fork 97
+411 Philosopher 38 is sleeping
+412 Philosopher 149 is thinking
+413 Philosopher 64 is eating
+413 Philosopher 110 is sleeping
+417 Philosopher 134 is sleeping
+418 Philosopher 151 is thinking
+1743171022728 Philosopher 151 is taking left fork 149
+1743171022728 Philosopher 151 is taking right fork 150
+419 Philosopher 151 is eating
+420 Philosopher 50 is eating
+420 Philosopher 119 is sleeping
+1743171022728 Philosopher 133 is taking right fork 132
+420 Philosopher 133 is eating
+1743171022728 Philosopher 135 is taking left fork 133
+1743171022728 Philosopher 135 is taking right fork 134
+421 Philosopher 135 is eating
+1743171022728 Philosopher 33 is taking right fork 32
+422 Philosopher 33 is eating
+422 Philosopher 34 is sleeping
+1743171022728 Philosopher 35 is taking left fork 33
+423 Philosopher 56 is sleeping
+423 Philosopher 107 is sleeping
+1743171022728 Philosopher 120 is taking left fork 118
+425 Philosopher 152 is thinking
+1743171022728 Philosopher 152 is taking right fork 151
+426 Philosopher 105 is eating
+426 Philosopher 91 is thinking
+426 Philosopher 28 is sleeping
+428 Philosopher 153 is thinking
+428 Philosopher 15 is eating
+429 Philosopher 120 is eating
+1743171022728 Philosopher 91 is taking left fork 89
+1743171022728 Philosopher 91 is taking right fork 90
+429 Philosopher 91 is eating
+430 Philosopher 104 is thinking
+1743171022728 Philosopher 27 is taking right fork 26
+430 Philosopher 27 is eating
+1743171022728 Philosopher 29 is taking left fork 27
+1743171022728 Philosopher 35 is taking right fork 34
+431 Philosopher 35 is eating
+433 Philosopher 154 is thinking
+1743171022728 Philosopher 154 is taking right fork 153
+1743171022728 Philosopher 154 is taking left fork 152
+433 Philosopher 154 is eating
+434 Philosopher 21 is sleeping
+434 Philosopher 54 is eating
+1743171022728 Philosopher 111 is taking left fork 109
+436 Philosopher 36 is sleeping
+1743171022728 Philosopher 37 is taking left fork 35
+1743171022728 Philosopher 37 is taking right fork 36
+439 Philosopher 37 is eating
+439 Philosopher 22 is thinking
+441 Philosopher 155 is thinking
+442 Philosopher 5 is sleeping
+1743171022728 Philosopher 6 is taking left fork 4
+442 Philosopher 6 is eating
+443 Philosopher 46 is eating
+1743171022728 Philosopher 111 is taking right fork 110
+444 Philosopher 111 is eating
+444 Philosopher 40 is sleeping
+1743171022728 Philosopher 136 is taking right fork 135
+445 Philosopher 112 is sleeping
+1743171022728 Philosopher 113 is taking left fork 111
+446 Philosopher 156 is thinking
+1743171022728 Philosopher 156 is taking right fork 155
+1743171022728 Philosopher 156 is taking left fork 154
+447 Philosopher 156 is eating
+448 Philosopher 80 is thinking
+1743171022728 Philosopher 80 is taking right fork 79
+1743171022728 Philosopher 80 is taking left fork 78
+449 Philosopher 80 is eating
+450 Philosopher 60 is eating
+1743171022728 Philosopher 41 is taking left fork 39
+450 Philosopher 137 is sleeping
+1743171022728 Philosopher 138 is taking left fork 136
+451 Philosopher 138 is eating
+451 Philosopher 101 is sleeping
+451 Philosopher 69 is sleeping
+452 Philosopher 140 is sleeping
+1743171022728 Philosopher 141 is taking left fork 139
+1743171022728 Philosopher 113 is taking right fork 112
+452 Philosopher 113 is eating
+454 Philosopher 157 is thinking
+455 Philosopher 85 is sleeping
+455 Philosopher 52 is eating
+456 Philosopher 103 is sleeping
+1743171022728 Philosopher 39 is taking left fork 37
+1743171022728 Philosopher 100 is taking right fork 99
+1743171022728 Philosopher 100 is taking left fork 98
+457 Philosopher 100 is eating
+1743171022728 Philosopher 68 is taking right fork 67
+1743171022728 Philosopher 68 is taking left fork 66
+458 Philosopher 68 is eating
+459 Philosopher 114 is sleeping
+1743171022728 Philosopher 115 is taking left fork 113
+1743171022728 Philosopher 115 is taking right fork 114
+459 Philosopher 115 is eating
+460 Philosopher 142 is sleeping
+1743171022728 Philosopher 29 is taking right fork 28
+460 Philosopher 29 is eating
+462 Philosopher 158 is thinking
+1743171022728 Philosopher 158 is taking right fork 157
+1743171022728 Philosopher 158 is taking left fork 156
+462 Philosopher 158 is eating
+463 Philosopher 116 is sleeping
+1743171022728 Philosopher 117 is taking left fork 115
+1743171022728 Philosopher 117 is taking right fork 116
+473 Philosopher 146 is sleeping
+1743171022728 Philosopher 147 is taking left fork 145
+474 Philosopher 58 is sleeping
+474 Philosopher 30 is sleeping
+474 Philosopher 78 is sleeping
+1743171022728 Philosopher 79 is taking left fork 77
+476 Philosopher 160 is thinking
+1743171022728 Philosopher 160 is taking right fork 159
+1743171022728 Philosopher 160 is taking left fork 158
+477 Philosopher 20 is thinking
+1743171022728 Philosopher 20 is taking right fork 19
+478 Philosopher 150 is thinking
+478 Philosopher 90 is thinking
+1743171022728 Philosopher 59 is taking left fork 57
+1743171022728 Philosopher 147 is taking right fork 146
+480 Philosopher 48 is sleeping
+1743171022728 Philosopher 49 is taking left fork 47
+482 Philosopher 161 is thinking
+482 Philosopher 109 is sleeping
+482 Philosopher 67 is sleeping
+1743171022728 Philosopher 96 is taking right fork 95
+1743171022728 Philosopher 96 is taking left fork 94
+483 Philosopher 148 is sleeping
+1743171022728 Philosopher 149 is taking left fork 147
+1743171022728 Philosopher 149 is taking right fork 148
+485 Philosopher 133 is sleeping
+486 Philosopher 162 is thinking
+1743171022728 Philosopher 162 is taking right fork 161
+1743171022728 Philosopher 162 is taking left fork 160
+1743171022728 Philosopher 108 is taking right fork 107
+1743171022728 Philosopher 108 is taking left fork 106
+488 Philosopher 33 is sleeping
+488 Philosopher 97 is sleeping
+1743171022728 Philosopher 98 is taking left fork 96
+1743171022728 Philosopher 150 is taking right fork 149
+489 Philosopher 32 is thinking
+1743171022728 Philosopher 32 is taking right fork 31
+1743171022728 Philosopher 32 is taking left fork 30
+490 Philosopher 64 is sleeping
+1743171022728 Philosopher 65 is taking left fork 63
+1743171022728 Philosopher 65 is taking right fork 64
+492 Philosopher 163 is thinking
+1743171022728 Philosopher 66 is taking right fork 65
+1743171022728 Philosopher 49 is taking right fork 48
+495 Philosopher 84 is thinking
+1743171022728 Philosopher 84 is taking right fork 83
+1743171022728 Philosopher 84 is taking left fork 82
+496 Philosopher 57 is thinking
+1743171022728 Philosopher 57 is taking left fork 55
+1743171022728 Philosopher 57 is taking right fork 56
+496 Philosopher 135 is sleeping
+1743171022728 Philosopher 136 is taking left fork 134
+497 Philosopher 35 is sleeping
+498 Philosopher 118 is sleeping
+498 Philosopher 105 is sleeping
+1743171022728 Philosopher 104 is taking right fork 103
+1743171022728 Philosopher 104 is taking left fork 102
+1743171022728 Philosopher 41 is taking right fork 40
+499 Philosopher 151 is sleeping
+499 Philosopher 120 is sleeping
+1743171022728 Philosopher 121 is taking left fork 119
+1743171022728 Philosopher 121 is taking right fork 120
+500 Philosopher 130 is thinking
+1743171022728 Philosopher 130 is taking right fork 129
+1743171022728 Philosopher 130 is taking left fork 128
+502 Philosopher 91 is sleeping
+1743171022728 Philosopher 90 is taking right fork 89
+1743171022728 Philosopher 90 is taking left fork 88
+505 Philosopher 27 is sleeping
+505 Philosopher 4 is thinking
+1743171022728 Philosopher 4 is taking right fork 3
+1743171022728 Philosopher 4 is taking left fork 2
+507 Philosopher 82 is thinking
+1743171022728 Philosopher 82 is taking right fork 81
+1743171022728 Philosopher 82 is taking left fork 80
+508 Philosopher 106 is thinking
+509 Philosopher 42 is sleeping
+1743171022728 Philosopher 43 is taking left fork 41
+510 Philosopher 37 is sleeping
+510 Philosopher 50 is sleeping
+1743171022728 Philosopher 51 is taking left fork 49
+511 Philosopher 154 is sleeping
+512 Philosopher 6 is sleeping
+513 Philosopher 111 is sleeping
+1743171022728 Philosopher 26 is taking right fork 25
+1743171022728 Philosopher 26 is taking left fork 24
+514 Philosopher 164 is thinking
+1743171022728 Philosopher 164 is taking right fork 163
+1743171022728 Philosopher 164 is taking left fork 162
+515 Philosopher 165 is thinking
+1743171022728 Philosopher 106 is taking right fork 105
+1743171022728 Philosopher 106 is taking left fork 104
+517 Philosopher 81 is sleeping
+1743171022728 Philosopher 152 is taking left fork 150
+524 Philosopher 68 is sleeping
+524 Philosopher 138 is sleeping
+1743171022728 Philosopher 139 is taking left fork 137
+1743171022728 Philosopher 139 is taking right fork 138
+525 Philosopher 54 is sleeping
+1743171022728 Philosopher 55 is taking left fork 53
+1743171022728 Philosopher 55 is taking right fork 54
+526 Philosopher 115 is sleeping
+526 Philosopher 29 is sleeping
+527 Philosopher 158 is sleeping
+527 Philosopher 99 is thinking
+528 Philosopher 7 is thinking
+1743171022728 Philosopher 7 is taking left fork 5
+1743171022728 Philosopher 7 is taking right fork 6
+529 Philosopher 13 is eating
+529 Philosopher 110 is thinking
+1743171022728 Philosopher 110 is taking right fork 109
+1743171022728 Philosopher 110 is taking left fork 108
+530 Philosopher 110 is eating
+532 Philosopher 167 is thinking
+1743171022728 Philosopher 167 is taking left fork 165
+1743171022728 Philosopher 167 is taking right fork 166
+533 Philosopher 167 is eating
+534 Philosopher 122 is thinking
+1743171022728 Philosopher 102 is taking right fork 101
+535 Philosopher 44 is eating
+1743171022728 Philosopher 51 is taking right fork 50
+539 Philosopher 51 is eating
+541 Philosopher 132 is thinking
+1743171022728 Philosopher 132 is taking right fork 131
+1743171022728 Philosopher 132 is taking left fork 130
+542 Philosopher 132 is eating
+1743171022728 Philosopher 102 is taking left fork 100
+543 Philosopher 102 is eating
+1743171022728 Philosopher 39 is taking right fork 38
+544 Philosopher 9 is eating
+544 Philosopher 38 is thinking
+546 Philosopher 52 is sleeping
+1743171022728 Philosopher 53 is taking left fork 51
+1743171022728 Philosopher 53 is taking right fork 52
+547 Philosopher 53 is eating
+548 Philosopher 168 is thinking
+1743171022728 Philosopher 168 is taking right fork 167
+549 Philosopher 169 is thinking
+550 Philosopher 119 is thinking
+1743171022728 Philosopher 119 is taking left fork 117
+1743171022728 Philosopher 119 is taking right fork 118
+551 Philosopher 119 is eating
+552 Philosopher 134 is thinking
+1743171022728 Philosopher 134 is taking right fork 133
+1743171022728 Philosopher 134 is taking left fork 132
+553 Philosopher 134 is eating
+554 Philosopher 39 is eating
+554 Philosopher 24 is thinking
+1743171022728 Philosopher 24 is taking right fork 23
+555 Philosopher 72 is eating
+1743171022728 Philosopher 59 is taking right fork 58
+557 Philosopher 59 is eating
+558 Philosopher 170 is thinking
+1743171022728 Philosopher 170 is taking right fork 169
+1743171022728 Philosopher 170 is taking left fork 168
+559 Philosopher 170 is eating
+560 Philosopher 112 is thinking
+1743171022728 Philosopher 112 is taking right fork 111
+1743171022728 Philosopher 112 is taking left fork 110
+561 Philosopher 112 is eating
+563 Philosopher 76 is sleeping
+563 Philosopher 93 is eating
+563 Philosopher 56 is thinking
+564 Philosopher 60 is sleeping
+1743171022728 Philosopher 61 is taking left fork 59
+566 Philosopher 171 is thinking
+566 Philosopher 107 is thinking
+568 Philosopher 34 is thinking
+1743171022728 Philosopher 34 is taking right fork 33
+1743171022728 Philosopher 34 is taking left fork 32
+569 Philosopher 34 is eating
+569 Philosopher 144 is sleeping
+570 Philosopher 2 is eating
+570 Philosopher 21 is thinking
+572 Philosopher 172 is thinking
+1743171022728 Philosopher 172 is taking right fork 171
+1743171022728 Philosopher 172 is taking left fork 170
+572 Philosopher 172 is eating
+573 Philosopher 5 is thinking
+1743171022728 Philosopher 145 is taking left fork 143
+579 Philosopher 23 is eating
+581 Philosopher 173 is thinking
+582 Philosopher 36 is thinking
+1743171022728 Philosopher 36 is taking right fork 35
+1743171022728 Philosopher 36 is taking left fork 34
+582 Philosopher 36 is eating
+583 Philosopher 28 is thinking
+1743171022728 Philosopher 28 is taking right fork 27
+1743171022728 Philosopher 28 is taking left fork 26
+584 Philosopher 28 is eating
+584 Philosopher 142 is thinking
+1743171022728 Philosopher 145 is taking right fork 144
+586 Philosopher 145 is eating
+586 Philosopher 95 is thinking
+586 Philosopher 114 is thinking
+1743171022728 Philosopher 114 is taking right fork 113
+1743171022728 Philosopher 114 is taking left fork 112
+592 Philosopher 69 is thinking
+1743171022728 Philosopher 69 is taking left fork 67
+1743171022728 Philosopher 69 is taking right fork 68
+595 Philosopher 13 is sleeping
+596 Philosopher 140 is thinking
+1743171022728 Philosopher 143 is taking left fork 141
+598 Philosopher 175 is thinking
+1743171022728 Philosopher 175 is taking left fork 173
+1743171022728 Philosopher 175 is taking right fork 174
+599 Philosopher 176 is thinking
+1743171022728 Philosopher 176 is taking right fork 175
+1743171022728 Philosopher 12 is taking right fork 11
+1743171022728 Philosopher 143 is taking right fork 142
+1743171022728 Philosopher 31 is taking left fork 29
+602 Philosopher 167 is sleeping
+1743171022728 Philosopher 168 is taking left fork 166
+603 Philosopher 101 is thinking
+1743171022728 Philosopher 101 is taking left fork 99
+603 Philosopher 48 is thinking
+604 Philosopher 51 is sleeping
+604 Philosopher 83 is sleeping
+605 Philosopher 85 is thinking
+605 Philosopher 109 is thinking
+605 Philosopher 132 is sleeping
+607 Philosopher 177 is thinking
+607 Philosopher 110 is sleeping
+608 Philosopher 70 is thinking
+608 Philosopher 102 is sleeping
+1743171022728 Philosopher 101 is taking right fork 100
+609 Philosopher 146 is thinking
+609 Philosopher 58 is thinking
+609 Philosopher 116 is thinking
+611 Philosopher 53 is sleeping
+1743171022728 Philosopher 43 is taking right fork 42
+612 Philosopher 159 is thinking
+1743171022728 Philosopher 159 is taking left fork 157
+612 Philosopher 148 is thinking
+613 Philosopher 67 is thinking
+614 Philosopher 178 is thinking
+1743171022728 Philosopher 178 is taking right fork 177
+1743171022728 Philosopher 178 is taking left fork 176
+615 Philosopher 33 is thinking
+618 Philosopher 179 is thinking
+619 Philosopher 119 is sleeping
+620 Philosopher 131 is sleeping
+620 Philosopher 46 is sleeping
+620 Philosopher 134 is sleeping
+621 Philosopher 151 is thinking
+622 Philosopher 30 is thinking
+622 Philosopher 91 is thinking
+623 Philosopher 180 is thinking
+1743171022728 Philosopher 180 is taking right fork 179
+1743171022728 Philosopher 180 is taking left fork 178
+624 Philosopher 64 is thinking
+625 Philosopher 44 is sleeping
+1743171022728 Philosopher 45 is taking left fork 43
+1743171022728 Philosopher 45 is taking right fork 44
+626 Philosopher 133 is thinking
+1743171022728 Philosopher 133 is taking left fork 131
+1743171022728 Philosopher 133 is taking right fork 132
+627 Philosopher 37 is thinking
+1743171022728 Philosopher 47 is taking left fork 45
+628 Philosopher 39 is sleeping
+1743171022728 Philosopher 38 is taking right fork 37
+1743171022728 Philosopher 38 is taking left fork 36
+629 Philosopher 112 is sleeping
+629 Philosopher 59 is sleeping
+631 Philosopher 181 is thinking
+631 Philosopher 154 is thinking
+632 Philosopher 170 is sleeping
+1743171022728 Philosopher 171 is taking left fork 169
+633 Philosopher 111 is thinking
+1743171022728 Philosopher 111 is taking left fork 109
+1743171022728 Philosopher 111 is taking right fork 110
+634 Philosopher 105 is thinking
+634 Philosopher 35 is thinking
+635 Philosopher 42 is thinking
+1743171022728 Philosopher 47 is taking right fork 46
+1743171022728 Philosopher 155 is taking left fork 153
+636 Philosopher 135 is thinking
+1743171022728 Philosopher 135 is taking left fork 133
+636 Philosopher 50 is thinking
+1743171022728 Philosopher 50 is taking right fork 49
+1743171022728 Philosopher 58 is taking right fork 57
+637 Philosopher 9 is sleeping
+1743171022728 Philosopher 8 is taking right fork 7
+1743171022728 Philosopher 71 is taking right fork 70
+639 Philosopher 182 is thinking
+1743171022728 Philosopher 182 is taking right fork 181
+1743171022728 Philosopher 182 is taking left fork 180
+640 Philosopher 118 is thinking
+1743171022728 Philosopher 118 is taking right fork 117
+641 Philosopher 27 is thinking
+1743171022728 Philosopher 155 is taking right fork 154
+643 Philosopher 15 is sleeping
+643 Philosopher 34 is sleeping
+1743171022728 Philosopher 35 is taking left fork 33
+644 Philosopher 72 is sleeping
+1743171022728 Philosopher 73 is taking left fork 71
+645 Philosopher 68 is thinking
+649 Philosopher 93 is sleeping
+650 Philosopher 6 is thinking
+650 Philosopher 158 is thinking
+650 Philosopher 145 is sleeping
+651 Philosopher 138 is thinking
+651 Philosopher 97 is thinking
+652 Philosopher 184 is thinking
+1743171022728 Philosopher 184 is taking right fork 183
+1743171022728 Philosopher 184 is taking left fork 182
+653 Philosopher 115 is thinking
+1743171022728 Philosopher 22 is taking right fork 21
+1743171022728 Philosopher 22 is taking left fork 20
+1743171022728 Philosopher 24 is taking left fork 22
+655 Philosopher 172 is sleeping
+1743171022728 Philosopher 173 is taking left fork 171
+1743171022728 Philosopher 173 is taking right fork 172
+1743171022728 Philosopher 35 is taking right fork 34
+657 Philosopher 113 is sleeping
+1743171022728 Philosopher 94 is taking left fork 92
+662 Philosopher 185 is thinking
+1743171022728 Philosopher 1 is taking right fork 0
+663 Philosopher 29 is thinking
+1743171022728 Philosopher 29 is taking left fork 27
+1743171022728 Philosopher 29 is taking right fork 28
+664 Philosopher 36 is sleeping
+1743171022728 Philosopher 37 is taking left fork 35
+665 Philosopher 166 is thinking
+667 Philosopher 2 is sleeping
+1743171022728 Philosopher 166 is taking right fork 165
+1743171022728 Philosopher 166 is taking left fork 164
+668 Philosopher 77 is thinking
+669 Philosopher 186 is thinking
+1743171022728 Philosopher 186 is taking right fork 185
+1743171022728 Philosopher 186 is taking left fork 184
+670 Philosopher 187 is thinking
+1743171022728 Philosopher 3 is taking left fork 1
+1743171022728 Philosopher 77 is taking left fork 75
+1743171022728 Philosopher 77 is taking right fork 76
+672 Philosopher 156 is sleeping
+673 Philosopher 52 is thinking
+1743171022728 Philosopher 52 is taking right fork 51
+1743171022728 Philosopher 52 is taking left fork 50
+675 Philosopher 188 is thinking
+1743171022728 Philosopher 188 is taking right fork 187
+1743171022728 Philosopher 188 is taking left fork 186
+1743171022728 Philosopher 157 is taking left fork 155
+678 Philosopher 189 is thinking
+1743171022728 Philosopher 157 is taking right fork 156
+679 Philosopher 25 is thinking
+681 Philosopher 190 is thinking
+1743171022728 Philosopher 190 is taking right fork 189
+1743171022728 Philosopher 190 is taking left fork 188
+682 Philosopher 80 is sleeping
+683 Philosopher 191 is thinking
+1743171022728 Philosopher 79 is taking right fork 78
+686 Philosopher 192 is thinking
+1743171022728 Philosopher 192 is taking right fork 191
+1743171022728 Philosopher 192 is taking left fork 190
+687 Philosopher 76 is thinking
+687 Philosopher 100 is sleeping
+689 Philosopher 193 is thinking
+689 Philosopher 120 is thinking
+690 Philosopher 40 is thinking
+691 Philosopher 194 is thinking
+1743171022728 Philosopher 194 is taking right fork 193
+1743171022728 Philosopher 194 is taking left fork 192
+692 Philosopher 74 is eating
+693 Philosopher 60 is thinking
+695 Philosopher 195 is thinking
+697 Philosopher 196 is thinking
+1743171022728 Philosopher 196 is taking right fork 195
+1743171022728 Philosopher 196 is taking left fork 194
+697 Philosopher 196 is eating
+698 Philosopher 124 is eating
+699 Philosopher 197 is thinking
+700 Philosopher 88 is eating
+701 Philosopher 144 is thinking
+1743171022728 Philosopher 144 is taking right fork 143
+702 Philosopher 13 is thinking
+703 Philosopher 198 is thinking
+1743171022728 Philosopher 198 is taking right fork 197
+1743171022728 Philosopher 198 is taking left fork 196
+704 Philosopher 198 is eating
+705 Philosopher 11 is eating
+708 Philosopher 126 is eating
+709 Philosopher 199 is thinking
+709 Philosopher 137 is thinking
+713 Philosopher 200 is thinking
+713 Philosopher 17 is eating
+714 Philosopher 174 is thinking
+716 Philosopher 53 is thinking
+716 Philosopher 132 is thinking
+717 Philosopher 128 is eating
+718 Philosopher 103 is thinking
+719 Philosopher 102 is thinking
+1743171022728 Philosopher 102 is taking right fork 101
+720 Philosopher 62 is eating
+721 Philosopher 78 is thinking
+721 Philosopher 110 is thinking
+721 Philosopher 83 is thinking
+722 Philosopher 1 died
+724 Philosopher 19 is eating
+1743171022728 Philosopher 141 is taking right fork 140
+1743171022728 Philosopher 92 is taking right fork 91
+730 Philosopher 81 is thinking
+731 Philosopher 183 is thinking
+731 Philosopher 54 is thinking
+731 Philosopher 23 is sleeping
+1743171022728 Philosopher 171 is taking right fork 170
+1743171022728 Philosopher 14 is taking right fork 13
+733 Philosopher 28 is sleeping
+733 Philosopher 160 is eating
+734 Philosopher 117 is eating
+735 Philosopher 147 is eating
+735 Philosopher 96 is eating
+735 Philosopher 149 is eating
+736 Philosopher 162 is eating
+736 Philosopher 108 is eating
+737 Philosopher 98 is eating
+737 Philosopher 32 is eating
+738 Philosopher 65 is eating
+738 Philosopher 49 is eating
+738 Philosopher 84 is eating
+739 Philosopher 57 is eating
+740 Philosopher 136 is eating
+740 Philosopher 104 is eating
+741 Philosopher 41 is eating
+741 Philosopher 121 is eating
+741 Philosopher 130 is eating
+742 Philosopher 90 is eating
+742 Philosopher 4 is eating
+743 Philosopher 82 is eating
+743 Philosopher 26 is eating
+744 Philosopher 164 is eating
+744 Philosopher 106 is eating
+744 Philosopher 139 is eating
+745 Philosopher 55 is eating
+745 Philosopher 7 is eating
+746 Philosopher 152 is eating
+746 Philosopher 69 is eating
+747 Philosopher 114 is eating
+747 Philosopher 175 is eating
+747 Philosopher 143 is eating
+748 Philosopher 168 is eating
+748 Philosopher 101 is eating
+749 Philosopher 43 is eating
+749 Philosopher 178 is eating
+749 Philosopher 180 is eating
+750 Philosopher 45 is eating
+750 Philosopher 133 is eating
+751 Philosopher 38 is eating
+751 Philosopher 111 is eating
+752 Philosopher 47 is eating
+752 Philosopher 71 is eating
+752 Philosopher 182 is eating
+753 Philosopher 155 is eating
+753 Philosopher 184 is eating
+754 Philosopher 22 is eating
+754 Philosopher 24 is eating
+754 Philosopher 173 is eating
+755 Philosopher 35 is eating
+755 Philosopher 94 is eating
+756 Philosopher 1 is eating
+756 Philosopher 29 is eating
+757 Philosopher 166 is eating
+757 Philosopher 186 is eating
+757 Philosopher 77 is eating
+758 Philosopher 52 is eating
+759 Philosopher 188 is eating
+761 Philosopher 157 is eating
+761 Philosopher 190 is eating
+762 Philosopher 192 is eating
+763 Philosopher 79 is eating
+767 Philosopher 194 is eating
