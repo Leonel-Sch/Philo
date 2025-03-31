@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: leonel <leonel@student.42.fr>              +#+  +:+       +#+        */
+/*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/28 14:40:21 by leonel           ###   ########.fr       */
+/*   Updated: 2025/03/31 15:40:13 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ typedef struct s_data
 	pthread_mutex_t	is_dead;
 	pthread_mutex_t	has_eaten;
 	pthread_mutex_t	get_time;
+	pthread_mutex_t	is_something;
 	t_philo			*philos;
 }					t_data;
 
