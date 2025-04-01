@@ -6,7 +6,7 @@
 /*   By: lscheupl <lscheupl@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 16:37:39 by leonel            #+#    #+#             */
-/*   Updated: 2025/03/31 15:40:13 by lscheupl         ###   ########.fr       */
+/*   Updated: 2025/04/01 16:41:57 by lscheupl         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 # define PHILO_H
 
 # include <pthread.h>
+# include <stdbool.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
 # include <sys/time.h>
 # include <unistd.h>
-# include <stdbool.h>
 
 typedef struct s_philo
 {
@@ -34,13 +34,13 @@ typedef struct s_philo
 
 typedef struct s_data
 {
-	int				nb_philos;
-	long long				time_to_die;
-	long long	time_to_eat;
-	long long	time_to_sleep;
-	int				must_eat;
-	bool				dead;
-	bool 				*eaten;
+	long long		nb_philos;
+	long long		time_to_die;
+	long long		time_to_eat;
+	long long		time_to_sleep;
+	long long		must_eat;
+	bool			dead;
+	bool			*eaten;
 	long long		start_time;
 	pthread_mutex_t	*forks;
 	pthread_mutex_t	writing;
@@ -53,26 +53,25 @@ typedef struct s_data
 }					t_data;
 
 /* utils.c */
-int					ft_atoi(const char *str);
+long long			ft_atoll(const char *str);
 long long			get_time(void);
-//void				ft_usleep(long long time);
-//void				print_message(t_data *data, int id, char *msg);
-
-///* init.c */
-//int					init_data(t_data *data, int argc, char **argv);
-//int					init_mutex(t_data *data);
-//int					init_philos(t_data *data);
+int					verif_validity(t_data *data, int argc);
+int					init_mutex(t_data *data);
 
 ///* routine.c */
-//void				*philo_routine(void *arg);
-//void				eat(t_philo *philo);
-//void				check_death(t_data *data, t_philo *philos);
+void				*routine(void *arg);
 
 ///* routine utils.c */
-void    philo_write(t_philo *philo, char *str);
-bool    is_starving(t_philo *philo);
+void				philo_write(t_philo *philo, char *str);
+bool				is_starving(t_philo *philo);
+bool				check_death(t_philo *philo);
+bool				check_eaten(t_data *data);
 
-
-void 	ft_destroy(t_data *data);
+///** routine_utils_2.c */
+void				*routine_monitor(void *dat);
+void				*routine_one(void *arg);
+void				only_one_philo(t_data *data, int *i);
+void				init_each_philo(t_data *data, int i);
+bool				routine_is_dead(t_data *data);
 
 #endif
